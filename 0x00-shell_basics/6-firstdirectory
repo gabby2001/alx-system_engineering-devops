@@ -1,3 +1,2 @@
 #!/bin/bash
-FILE="my_first_directory"  if  [ -d "$FILE" ] then	echo "$FILE is a directory" else	echo "$FILE is NOT a directory" fi
-
+mkdir /tmp/my_first_directory
