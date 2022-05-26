@@ -1,10 +1,3 @@
 #!/bin/bash
-FILE=cd/tmp"my_first_directory"
-if [ -d "$FILE" ]
-then
-	echo "$FILE is a directory"
-else
-	echo "$FILE is NOT a directory"
-fi
+FILE="my_first_directory"  if  [ -d "$FILE" ] then	echo "$FILE is a directory" else	echo "$FILE is NOT a directory" fi
 
-readme
